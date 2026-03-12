@@ -24,12 +24,25 @@ description: |
 | **定价** | https://jiekou.ai/pricing |
 | **控制台** | https://jiekou.ai/console |
 
+## 图像、视频、音频 API 快速参考
+
+接口AI 聚合了业内主流的多模态 API，覆盖图像生成、视频生成和语音合成三大方向。
+
+| 键 | 值 |
+|-----|-------|
+| **鉴权方式** | `Authorization: Bearer <API_KEY>`（同 LLM） |
+| **获取 API Key** | https://jiekou.ai/settings/key-management |
+| **API 文档（MCP）** | https://jiekou.mintlify.app/mcp |
+| **视频统一接口文档** | https://jiekou.ai/docs/models/reference-unified-video-generation |
+| **定价** | https://jiekou.ai/pricing |
+
 ## 文档映射表
 
 | 问题 | 读取此文件 | 实时文档 |
 |----------|-----------|-----------|
 | 快速入门 | [quick-start.md](https://raw.githubusercontent.com/jiekouai/jiekou-skills/main/skills/jiekou-docs/references/quick-start.md) | - |
 | LLM API 使用 | [llm-guide.md](https://raw.githubusercontent.com/jiekouai/jiekou-skills/main/skills/jiekou-docs/references/llm-guide.md) | [API 参考](https://jiekou.ai/docs/models/reference-llm-create-chat-completion) |
+| 图像 / 视频 / 音频 API | [quick-start.md §3](https://raw.githubusercontent.com/jiekouai/jiekou-skills/main/skills/jiekou-docs/references/quick-start.md) | [MCP 工具](https://jiekou.mintlify.app/mcp) · [视频统一接口](https://jiekou.ai/docs/models/reference-unified-video-generation) |
 | 工具集成 | [integrations.md](https://raw.githubusercontent.com/jiekouai/jiekou-skills/main/skills/jiekou-docs/references/integrations.md) | - |
 | 常见问题 | [faq.md](https://raw.githubusercontent.com/jiekouai/jiekou-skills/main/skills/jiekou-docs/references/faq.md) | - |
 
@@ -37,6 +50,7 @@ description: |
 
 - 初次配置和最简示例使用 `quick-start.md`（见上方映射表）。
 - 聊天补全、工具调用、视觉、JSON 模式和批量任务使用 `llm-guide.md`（见上方映射表）。
+- 图像生成、视频生成、语音合成等多模态 API 使用 `quick-start.md §3`，并指向 MCP 工具文档获取完整参数说明。
 - 集成问题统一以 `integrations.md`（见上方映射表）为入口，再从中选择子文档。
 - 调试时优先使用 `faq.md`（见上方映射表）。
 - 如果无法从 GitHub 获取原始文件，回退到本技能目录中的本地 `references/*.md` 文件。
