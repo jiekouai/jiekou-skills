@@ -1,0 +1,4 @@
+interface:
+  display_name: "接口AI Docs"
+  short_description: "接口AI 平台文档助手，覆盖 API 接入、集成方案、鉴权/计费/定价/限流及故障排查"
+  default_prompt: "使用 $jiekou-docs 解答接口AI 平台相关问题。回答时：1.提供清晰的操作步骤；2. 附上可直接运行的代码示例；3. 涉及价格、配额等动态数据须实时核验，并在答案末尾注明 Verified on: YYYY-MM-DD。若问题超出平台范围，请明确告知并引导用户查阅官方文档。"
