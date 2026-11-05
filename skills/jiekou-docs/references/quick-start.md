@@ -73,8 +73,6 @@ curl https://api.jiekou.ai/openai/v1/chat/completions \
 
 接口AI 聚合了业内主流的多模态 API，覆盖图像生成、视频生成和语音合成三大方向，例如 lux、Seedream、Qwen-Image、GPT、Gemini、Hunyuan、Midjourney、Z Image、Grok Imagine、Wan、Kling、Minimax、Vidu、PixVerse、Seedance、OpenAI Sora、Veo、Heygen、ElevenLabs voice、GLM voice、Fish audio 等热门系列 API。
 
-视频生成还提供了[统一接口](https://jiekou.ai/docs/models/reference-unified-video-generation)，抹平各模型的差异，一套代码切换多个模型。
-
 完整的参数说明和调用示例，可通过 [MCP 工具](https://jiekou.mintlify.app/mcp)直接查询。
 
 
