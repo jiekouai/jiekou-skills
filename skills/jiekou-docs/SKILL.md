@@ -33,7 +33,7 @@ description: |
 | **鉴权方式** | `Authorization: Bearer <API_KEY>`（同 LLM） |
 | **获取 API Key** | https://jiekou.ai/settings/key-management |
 | **API 文档（MCP）** | https://jiekou.mintlify.app/mcp |
-| **视频统一接口文档** | https://jiekou.ai/docs/models/reference-unified-video-generation |
+| **视频 API 示例（MiniMax H3）** | https://jiekou.ai/docs/models/reference-minimax-h3 |
 | **定价** | https://jiekou.ai/pricing |
 
 ## 文档映射表
@@ -42,7 +42,7 @@ description: |
 |----------|-----------|-----------|
 | 快速入门 | [quick-start.md](https://raw.githubusercontent.com/jiekouai/jiekou-skills/main/skills/jiekou-docs/references/quick-start.md) | - |
 | LLM API 使用 | [llm-guide.md](https://raw.githubusercontent.com/jiekouai/jiekou-skills/main/skills/jiekou-docs/references/llm-guide.md) | [API 参考](https://jiekou.ai/docs/models/reference-llm-create-chat-completion) |
-| 图像 / 视频 / 音频 API | [quick-start.md §3](https://raw.githubusercontent.com/jiekouai/jiekou-skills/main/skills/jiekou-docs/references/quick-start.md) | [MCP 工具](https://jiekou.mintlify.app/mcp) · [视频统一接口](https://jiekou.ai/docs/models/reference-unified-video-generation) |
+| 图像 / 视频 / 音频 API | [quick-start.md §3](https://raw.githubusercontent.com/jiekouai/jiekou-skills/main/skills/jiekou-docs/references/quick-start.md) | [MCP 工具](https://jiekou.mintlify.app/mcp) · [视频 API 示例](https://jiekou.ai/docs/models/reference-minimax-h3) |
 | 工具集成 | [integrations.md](https://raw.githubusercontent.com/jiekouai/jiekou-skills/main/skills/jiekou-docs/references/integrations.md) | - |
 | 常见问题 | [faq.md](https://raw.githubusercontent.com/jiekouai/jiekou-skills/main/skills/jiekou-docs/references/faq.md) | - |
 
